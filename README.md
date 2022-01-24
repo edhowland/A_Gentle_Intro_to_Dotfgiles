@@ -16,6 +16,15 @@ will not appear in directory listings, making them effectly hidden from view.
 2. bash: hidden in filename globbing.
 3. Graphical file managers [like GNome Nautilus] only show if correct menu option is selected.
 
+### MIT Missing Semester class on dotfiles
+
+[https://missing.csail.mit.edu/2019/dotfiles/](https://missing.csail.mit.edu/2019/dotfiles/)
+
+YouTube video. Poor audio quality
+
+[https://www.youtube.com/watch?v=YSZBWWJw3mI](https://www.youtube.com/watch?v=YSZBWWJw3mI)
+
+
 ### History
 
 
@@ -24,6 +33,27 @@ will not appear in directory listings, making them effectly hidden from view.
 
 This approach is also used with folders that start with a '.' making them
 also hidden folders.
+
+## MIT class session on dotfiles
+
+[](...mit.edu) Missing Semester
+
+## Alternative to using dotfiles for configuration - suckless
+
+The suckless suite of programs do not use configuration files or dotfiles.
+Instead any configuration is managed via changing the C source and recompiling.
+This results in a single binary that is used to run the application.
+
+
+
+[https://en.wikipedia.org/wiki/Suckless.org](https://en.wikipedia.org/wiki/Suckless.org)
+
+
+## apt rm vs. apt purge
+
+If, instead of using apt rm [package] to uninstall some package, you instead
+use apt purge [package], you will also delete all saved configuration and any app 
+saved data. So, you might want to backup your dotfiles, .etc
 
 #### .git and friends
 

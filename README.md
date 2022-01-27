@@ -34,6 +34,22 @@ YouTube video. Poor audio quality
 This approach is also used with folders that start with a '.' making them
 also hidden folders.
 
+### Category of configuration files
+
+As we can see from our examination of the file types of dot files/folders,
+there are a variety of file formats. Config files, therefore, blur the line between
+data and source code.
+
+#### Approachs to management of 
+
+- Data: Back it up!
+- Source Code: Version control it!
+
+##### Distributed version control systems
+
+Any DVCS, by its very nature, is both a version control system and a backup solution.
+Therefore, using a DVCS like git, is a robust approach to both handling data and source code. IOW: config files.
+
 ## MIT class session on dotfiles
 
 [](...mit.edu) Missing Semester
@@ -66,7 +82,20 @@ the name.
 
 ## A better way: The XDG standard
 
+The XDG recommendations are from the Free Desktop: [https://freedesktop.org](freedesktop.org)
+and their Cross Desktop Group or XDG.
+
+### The power of the XDG directory specification
+
+[https://maex.me/2019/12/the-power-of-the-xdg-base-directory-specification/](https://maex.me/2019/12/the-power-of-the-xdg-base-directory-specification/)
+
 [The XDG Directory Specification](https://specifications.freedesktop.org/basedir-spec/basedir-spec-0.8.html#introduction)
+
+#### Where these environment vars typically get set:
+
+/etc/profile.d/apps-bin-path.sh:
+/etc/profile.d/xdg_dirs_desktop_session.sh
+
 
 ### The $HOME/.config directory
 
@@ -76,6 +105,8 @@ Also specified with $XDG_CONFIG_HOME
 
 
 This folder structure tends to mirror the root  /usr/local/[bin,lib,share]
+
+Notably, the path: $HOME/.local/bin is found in $PATH
 
 
 
@@ -176,3 +207,5 @@ https://github.com/alexpearce/dotfiles
 [A MacOS solution](https://driesvints.com/blog/getting-started-with-dotfiles/)
 
 [A straightforward guide to using Git, GitHub and symlinks from your $HOME/.dotfiles to your $HOME](http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/)
+
+/etc/profile.d/xdg_dirs_desktop_session.sh

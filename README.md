@@ -3,7 +3,12 @@
 ## abstract
 
 This the presentation originally given to the St. Louis Unix User's Group
-on 2022-02-XX
+on 2022-02-09
+
+### Contents
+
+- [This file]()
+- Aliases/functions used. If you want to follow along: [dot-aliases.sh]()
 
 
 

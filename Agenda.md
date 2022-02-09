@@ -58,12 +58,12 @@ say.dir.empty empty
 
 
 
-## cd ~
+## cd.spoof ~
 
-Looking at my home directory
+Looking at my spoofed home directory
 
 ```bash
-cd ~
+cd.spoof 
 dot.ls
 # only files:
 dot.file.ls
@@ -72,6 +72,44 @@ dot.dir.ls
 ```
 
 
+### Examine contents of some dot files
+
+```bash
+dot.file.ls | xarg.file
+```
 
 
 ## Look in other folders, other than home
+
+
+```bash
+cd.project
+ls
+# see some standard dotfiles placed by others
+l.
+```
+
+
+
+
+## Talk about XDG: Cross Desktop Group
+
+```bash
+cd.spoof
+echo $XDG_<Tab>
+xdg.lsd```
+
+Talk about .cache, .local, .local/bin
+
+```bash
+ls .cache
+ls .local
+echo $PATH
+```
+
+
+## Take a look at .config
+
+```bash
+ls -d1 .config/*
+```

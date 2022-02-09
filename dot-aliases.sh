@@ -22,3 +22,6 @@ say.dir.empty ()
         echo "$1" is empty
     } || echo "$1" is not empty
 }
+alias cd.project='cd ~/tmp/project'
+alias xdg.lsd='ls -d .cache .local .config'
+alias cd.spoof='cd ~/tmp/spoof'

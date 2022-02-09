@@ -21,6 +21,10 @@ will not appear in directory listings, making them effectly hidden from view.
 2. bash: hidden in filename globbing.
 3. Graphical file managers [like GNome Nautilus] only show if correct menu option is selected.
 
+## Wikipedia.org article on hidden files
+
+[https://en.wikipedia.org/wiki/Hidden_file_and_hidden_directory](https://en.wikipedia.org/wiki/Hidden_file_and_hidden_directory)
+
 ### MIT Missing Semester class on dotfiles
 
 [https://missing.csail.mit.edu/2019/dotfiles/](https://missing.csail.mit.edu/2019/dotfiles/)

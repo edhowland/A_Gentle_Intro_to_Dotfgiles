@@ -25,3 +25,14 @@ say.dir.empty ()
 alias cd.project='cd ~/tmp/project'
 alias xdg.lsd='ls -d .cache .local .config'
 alias cd.spoof='cd ~/tmp/spoof'
+msg () 
+{ 
+    clear;
+    echo -e "\n\n\n\n\n\n\n\n\n";
+    echo -e "\t\t" $@;
+    echo -e "\n\n\n\n\n\n"
+}
+alias ecent='clear;echo -e "\n\n\n\n\n\n\n\n\n"'
+alias msg.1='msg 1. A single source of truth'
+alias msg.2='msg "2. BACKUPS. BACKUPS. BACKUPS!"'
+alias msg.3='msg "3. A version control system. A VCS.\n\t\tPreferably a distributed VCS.  A DVCS.\n\t\tPreferably git."'

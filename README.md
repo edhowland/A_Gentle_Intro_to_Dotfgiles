@@ -19,7 +19,7 @@ will not appear in directory listings, making them effectly hidden from view.
 
 1. ls : You must use '-a' or the '--all' flag to see them.
 2. bash: hidden in filename globbing.
-3. Graphical file managers [like GNome Nautilus] only show if correct menu option is selected.
+3. Graphical file managers [like GNome Nautilus] only show if Control+H is pressed
 
 ## Wikipedia.org article on hidden files
 

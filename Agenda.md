@@ -113,3 +113,21 @@ echo $PATH
 ```bash
 ls -d1 .config/*
 ```
+
+
+## Wrapup and management
+
+```bash
+msg.1
+# talk about ~/.dotfiles folder and linking
+msg.2
+# talk about the 3,2,1 strategy
+msg.3
+# Talk about the advantages re: git and DVCS in general
+# Accomplishes many thins
+```
+
+## Conclusion
+
+Point them at README.md file
+with many links.

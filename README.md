@@ -221,3 +221,7 @@ https://github.com/alexpearce/dotfiles
 [A straightforward guide to using Git, GitHub and symlinks from your $HOME/.dotfiles to your $HOME](http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/)
 
 /etc/profile.d/xdg_dirs_desktop_session.sh
+
+
+Yet another Dotfile Manager
+[https://yadm.io/](https://yadm.io/)

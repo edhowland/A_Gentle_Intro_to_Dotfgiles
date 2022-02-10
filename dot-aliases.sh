@@ -36,3 +36,5 @@ alias ecent='clear;echo -e "\n\n\n\n\n\n\n\n\n"'
 alias msg.1='msg 1. A single source of truth'
 alias msg.2='msg "2. BACKUPS. BACKUPS. BACKUPS!"'
 alias msg.3='msg "3. A version control system. A VCS.\n\t\tPreferably a distributed VCS.  A DVCS.\n\t\tPreferably git."'
+alias msg.0='msg "\t\tAgenda\n\n\tExplanation of dotfiles\n\tExploration\n\tOrigin\n\tHome folder\n\tOther directories\n\t.config and friends\n\tManagement and wrap"'
+

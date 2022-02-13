@@ -62,6 +62,13 @@ data and source code.
 Any DVCS, by its very nature, is both a version control system and a backup solution.
 Therefore, using a DVCS like git, is a robust approach to both handling data and source code. IOW: config files.
 
+### Article from OpenSource.com on dotfile management
+
+[This site from opensource.com explains it and much moreand much better than I can.
+
+[https://opensource.com/article/19/3/move-your-dotfiles-version-control](https://opensource.com/article/19/3/move-your-dotfiles-version-control])
+
+
 ## MIT class session on dotfiles
 
 [](...mit.edu) Missing Semester
@@ -214,6 +221,13 @@ https://github.com/alexpearce/dotfiles
 
 
 ## Additional resources
+
+Comprehensive explanation of dotfiles. What they are and how to manage them:
+[https://www.freecodecamp.org/news/dotfiles-what-is-a-dot-file-and-how-to-create-it-in-mac-and-linux/](https://www.freecodecamp.org/news/dotfiles-what-is-a-dot-file-and-how-to-create-it-in-mac-and-linux/)
+
+Arch Wiki article on dotfile management. Includes links to XDG support (for Arch Linux???)
+https://wiki.archlinux.org/title/Dotfiles
+
 
 [Using .gitignore in your $HOmE dir and then git add --force to add files](https://drewdevault.com/2019/12/30/dotfiles.html)
 [A MacOS solution](https://driesvints.com/blog/getting-started-with-dotfiles/)
